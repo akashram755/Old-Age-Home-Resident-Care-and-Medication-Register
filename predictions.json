@@ -1,0 +1,537 @@
+{
+  "R0097": {
+    "predicted_risk": "Yes",
+    "confidence": 0.71,
+    "in_test_set": false
+  },
+  "R0001": {
+    "predicted_risk": "Yes",
+    "confidence": 0.72,
+    "in_test_set": false
+  },
+  "R0050": {
+    "predicted_risk": "Yes",
+    "confidence": 0.66,
+    "in_test_set": false
+  },
+  "R0085": {
+    "predicted_risk": "Yes",
+    "confidence": 0.79,
+    "in_test_set": true
+  },
+  "R0004": {
+    "predicted_risk": "Yes",
+    "confidence": 0.66,
+    "in_test_set": false
+  },
+  "R0049": {
+    "predicted_risk": "No",
+    "confidence": 0.75,
+    "in_test_set": true
+  },
+  "R0016": {
+    "predicted_risk": null,
+    "confidence": 0.58,
+    "in_test_set": false
+  },
+  "R0057": {
+    "predicted_risk": "No",
+    "confidence": 0.67,
+    "in_test_set": false
+  },
+  "R0029": {
+    "predicted_risk": "No",
+    "confidence": 0.63,
+    "in_test_set": false
+  },
+  "R0033": {
+    "predicted_risk": null,
+    "confidence": 0.59,
+    "in_test_set": false
+  },
+  "R0083": {
+    "predicted_risk": null,
+    "confidence": 0.5,
+    "in_test_set": false
+  },
+  "R0102": {
+    "predicted_risk": null,
+    "confidence": 0.55,
+    "in_test_set": false
+  },
+  "R0065": {
+    "predicted_risk": null,
+    "confidence": 0.53,
+    "in_test_set": false
+  },
+  "R0054": {
+    "predicted_risk": "Yes",
+    "confidence": 0.64,
+    "in_test_set": false
+  },
+  "R0075": {
+    "predicted_risk": null,
+    "confidence": 0.57,
+    "in_test_set": false
+  },
+  "R0042": {
+    "predicted_risk": "No",
+    "confidence": 0.86,
+    "in_test_set": false
+  },
+  "R0051": {
+    "predicted_risk": "No",
+    "confidence": 0.71,
+    "in_test_set": false
+  },
+  "R0086": {
+    "predicted_risk": "No",
+    "confidence": 0.85,
+    "in_test_set": true
+  },
+  "R0007": {
+    "predicted_risk": "No",
+    "confidence": 0.62,
+    "in_test_set": false
+  },
+  "R0078": {
+    "predicted_risk": null,
+    "confidence": 0.6,
+    "in_test_set": false
+  },
+  "R0060": {
+    "predicted_risk": "No",
+    "confidence": 0.78,
+    "in_test_set": true
+  },
+  "R0066": {
+    "predicted_risk": "Yes",
+    "confidence": 0.76,
+    "in_test_set": false
+  },
+  "R0010": {
+    "predicted_risk": "Yes",
+    "confidence": 0.61,
+    "in_test_set": false
+  },
+  "R0019": {
+    "predicted_risk": "Yes",
+    "confidence": 0.71,
+    "in_test_set": true
+  },
+  "R0013": {
+    "predicted_risk": "Yes",
+    "confidence": 0.7,
+    "in_test_set": false
+  },
+  "R0026": {
+    "predicted_risk": "No",
+    "confidence": 0.67,
+    "in_test_set": false
+  },
+  "R0047": {
+    "predicted_risk": null,
+    "confidence": 0.56,
+    "in_test_set": false
+  },
+  "R0032": {
+    "predicted_risk": "Yes",
+    "confidence": 0.76,
+    "in_test_set": false
+  },
+  "R0012": {
+    "predicted_risk": "Yes",
+    "confidence": 0.78,
+    "in_test_set": false
+  },
+  "R0098": {
+    "predicted_risk": "Yes",
+    "confidence": 0.74,
+    "in_test_set": false
+  },
+  "R0008": {
+    "predicted_risk": null,
+    "confidence": 0.57,
+    "in_test_set": false
+  },
+  "R0034": {
+    "predicted_risk": null,
+    "confidence": 0.57,
+    "in_test_set": true
+  },
+  "R0036": {
+    "predicted_risk": null,
+    "confidence": 0.54,
+    "in_test_set": false
+  },
+  "R0037": {
+    "predicted_risk": null,
+    "confidence": 0.58,
+    "in_test_set": false
+  },
+  "R0095": {
+    "predicted_risk": null,
+    "confidence": 0.51,
+    "in_test_set": true
+  },
+  "R0088": {
+    "predicted_risk": null,
+    "confidence": 0.58,
+    "in_test_set": false
+  },
+  "R0084": {
+    "predicted_risk": null,
+    "confidence": 0.59,
+    "in_test_set": true
+  },
+  "R0087": {
+    "predicted_risk": null,
+    "confidence": 0.53,
+    "in_test_set": false
+  },
+  "R0025": {
+    "predicted_risk": null,
+    "confidence": 0.58,
+    "in_test_set": false
+  },
+  "R0071": {
+    "predicted_risk": null,
+    "confidence": 0.54,
+    "in_test_set": false
+  },
+  "R0006": {
+    "predicted_risk": null,
+    "confidence": 0.56,
+    "in_test_set": true
+  },
+  "R0058": {
+    "predicted_risk": null,
+    "confidence": 0.6,
+    "in_test_set": false
+  },
+  "R0011": {
+    "predicted_risk": null,
+    "confidence": 0.55,
+    "in_test_set": true
+  },
+  "R0103": {
+    "predicted_risk": null,
+    "confidence": 0.52,
+    "in_test_set": false
+  },
+  "R0038": {
+    "predicted_risk": null,
+    "confidence": 0.58,
+    "in_test_set": false
+  },
+  "R0062": {
+    "predicted_risk": null,
+    "confidence": 0.56,
+    "in_test_set": false
+  },
+  "R0043": {
+    "predicted_risk": "No",
+    "confidence": 0.61,
+    "in_test_set": false
+  },
+  "R0027": {
+    "predicted_risk": "No",
+    "confidence": 0.61,
+    "in_test_set": true
+  },
+  "R0040": {
+    "predicted_risk": "No",
+    "confidence": 0.67,
+    "in_test_set": false
+  },
+  "R0076": {
+    "predicted_risk": "No",
+    "confidence": 0.85,
+    "in_test_set": false
+  },
+  "R0039": {
+    "predicted_risk": null,
+    "confidence": 0.53,
+    "in_test_set": true
+  },
+  "R0044": {
+    "predicted_risk": null,
+    "confidence": 0.53,
+    "in_test_set": false
+  },
+  "R0005": {
+    "predicted_risk": null,
+    "confidence": 0.51,
+    "in_test_set": false
+  },
+  "R0030": {
+    "predicted_risk": null,
+    "confidence": 0.56,
+    "in_test_set": true
+  },
+  "R0082": {
+    "predicted_risk": null,
+    "confidence": 0.56,
+    "in_test_set": false
+  },
+  "R0077": {
+    "predicted_risk": "No",
+    "confidence": 0.69,
+    "in_test_set": true
+  },
+  "R0081": {
+    "predicted_risk": "No",
+    "confidence": 0.85,
+    "in_test_set": false
+  },
+  "R0020": {
+    "predicted_risk": "No",
+    "confidence": 0.83,
+    "in_test_set": false
+  },
+  "R0021": {
+    "predicted_risk": "No",
+    "confidence": 0.63,
+    "in_test_set": false
+  },
+  "R0035": {
+    "predicted_risk": "No",
+    "confidence": 0.86,
+    "in_test_set": false
+  },
+  "R0031": {
+    "predicted_risk": null,
+    "confidence": 0.52,
+    "in_test_set": true
+  },
+  "R0069": {
+    "predicted_risk": null,
+    "confidence": 0.55,
+    "in_test_set": false
+  },
+  "R0028": {
+    "predicted_risk": "No",
+    "confidence": 0.69,
+    "in_test_set": false
+  },
+  "R0018": {
+    "predicted_risk": null,
+    "confidence": 0.52,
+    "in_test_set": false
+  },
+  "R0092": {
+    "predicted_risk": null,
+    "confidence": 0.53,
+    "in_test_set": false
+  },
+  "R0017": {
+    "predicted_risk": "No",
+    "confidence": 0.73,
+    "in_test_set": true
+  },
+  "R0023": {
+    "predicted_risk": "No",
+    "confidence": 0.71,
+    "in_test_set": false
+  },
+  "R0063": {
+    "predicted_risk": "No",
+    "confidence": 0.83,
+    "in_test_set": false
+  },
+  "R0096": {
+    "predicted_risk": "No",
+    "confidence": 0.78,
+    "in_test_set": true
+  },
+  "R0091": {
+    "predicted_risk": "No",
+    "confidence": 0.68,
+    "in_test_set": false
+  },
+  "R0101": {
+    "predicted_risk": "No",
+    "confidence": 0.62,
+    "in_test_set": false
+  },
+  "R0079": {
+    "predicted_risk": "No",
+    "confidence": 0.8,
+    "in_test_set": false
+  },
+  "R0015": {
+    "predicted_risk": "No",
+    "confidence": 0.69,
+    "in_test_set": false
+  },
+  "R0014": {
+    "predicted_risk": "No",
+    "confidence": 0.63,
+    "in_test_set": false
+  },
+  "R0046": {
+    "predicted_risk": "No",
+    "confidence": 0.73,
+    "in_test_set": false
+  },
+  "R0105": {
+    "predicted_risk": "No",
+    "confidence": 0.85,
+    "in_test_set": false
+  },
+  "R0045": {
+    "predicted_risk": "No",
+    "confidence": 0.62,
+    "in_test_set": true
+  },
+  "R0067": {
+    "predicted_risk": "No",
+    "confidence": 0.65,
+    "in_test_set": true
+  },
+  "R0048": {
+    "predicted_risk": null,
+    "confidence": 0.58,
+    "in_test_set": false
+  },
+  "R0073": {
+    "predicted_risk": null,
+    "confidence": 0.52,
+    "in_test_set": false
+  },
+  "R0024": {
+    "predicted_risk": null,
+    "confidence": 0.54,
+    "in_test_set": false
+  },
+  "R0056": {
+    "predicted_risk": null,
+    "confidence": 0.58,
+    "in_test_set": false
+  },
+  "R0099": {
+    "predicted_risk": null,
+    "confidence": 0.55,
+    "in_test_set": false
+  },
+  "R0106": {
+    "predicted_risk": "No",
+    "confidence": 0.73,
+    "in_test_set": false
+  },
+  "R0100": {
+    "predicted_risk": null,
+    "confidence": 0.58,
+    "in_test_set": false
+  },
+  "R0104": {
+    "predicted_risk": null,
+    "confidence": 0.52,
+    "in_test_set": true
+  },
+  "R0009": {
+    "predicted_risk": "No",
+    "confidence": 0.63,
+    "in_test_set": false
+  },
+  "R0003": {
+    "predicted_risk": null,
+    "confidence": 0.53,
+    "in_test_set": false
+  },
+  "R0053": {
+    "predicted_risk": "No",
+    "confidence": 0.65,
+    "in_test_set": false
+  },
+  "R0074": {
+    "predicted_risk": "No",
+    "confidence": 0.82,
+    "in_test_set": true
+  },
+  "R0080": {
+    "predicted_risk": "No",
+    "confidence": 0.69,
+    "in_test_set": true
+  },
+  "R0055": {
+    "predicted_risk": null,
+    "confidence": 0.54,
+    "in_test_set": false
+  },
+  "R0041": {
+    "predicted_risk": null,
+    "confidence": 0.54,
+    "in_test_set": true
+  },
+  "R0068": {
+    "predicted_risk": "No",
+    "confidence": 0.73,
+    "in_test_set": false
+  },
+  "R0022": {
+    "predicted_risk": "Yes",
+    "confidence": 0.69,
+    "in_test_set": false
+  },
+  "R0002": {
+    "predicted_risk": null,
+    "confidence": 0.55,
+    "in_test_set": true
+  },
+  "R0052": {
+    "predicted_risk": "Yes",
+    "confidence": 0.81,
+    "in_test_set": false
+  },
+  "R0064": {
+    "predicted_risk": null,
+    "confidence": 0.53,
+    "in_test_set": false
+  },
+  "R0072": {
+    "predicted_risk": "Yes",
+    "confidence": 0.69,
+    "in_test_set": false
+  },
+  "R0089": {
+    "predicted_risk": "Yes",
+    "confidence": 0.65,
+    "in_test_set": true
+  },
+  "R0107": {
+    "predicted_risk": "Yes",
+    "confidence": 0.71,
+    "in_test_set": false
+  },
+  "R0090": {
+    "predicted_risk": null,
+    "confidence": 0.6,
+    "in_test_set": true
+  },
+  "R0094": {
+    "predicted_risk": null,
+    "confidence": 0.59,
+    "in_test_set": false
+  },
+  "R0061": {
+    "predicted_risk": "No",
+    "confidence": 0.82,
+    "in_test_set": true
+  },
+  "R0070": {
+    "predicted_risk": "No",
+    "confidence": 0.71,
+    "in_test_set": false
+  },
+  "R0059": {
+    "predicted_risk": "No",
+    "confidence": 0.63,
+    "in_test_set": false
+  },
+  "R0108": {
+    "predicted_risk": "No",
+    "confidence": 0.66,
+    "in_test_set": false
+  }
+}

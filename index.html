@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Handover Board — Resident Care &amp; Medication Register</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="board">
+  <div class="board__title">
+    <p class="board__eyebrow">Sunnyvale Residential Care</p>
+    <h1>Handover Board</h1>
+    <p class="board__date" id="todayLabel">—</p>
+  </div>
+
+  <div class="board__counts" id="boardCounts">
+    <div class="count-tile count-tile--due">
+      <span class="count-tile__num" id="countDue">–</span>
+      <span class="count-tile__label">Due, not yet given</span>
+    </div>
+    <div class="count-tile count-tile--given">
+      <span class="count-tile__num" id="countGiven">–</span>
+      <span class="count-tile__label">Given today</span>
+    </div>
+    <div class="count-tile count-tile--flag">
+      <span class="count-tile__num" id="countFlag">–</span>
+      <span class="count-tile__label">Needs attention</span>
+    </div>
+  </div>
+</header>
+
+<main class="layout">
+
+  <section class="panel panel--list" id="listPanel">
+    <div class="controls">
+      <div class="search-wrap">
+        <input type="text" id="searchInput" placeholder="Search resident, medication, or observation…" autocomplete="off" />
+        <span class="search-count" id="resultCount">0 records</span>
+      </div>
+      <div class="filter-row">
+        <label class="filter-chip">
+          <span>Day</span>
+          <select id="dateFilter"><option value="all">All dates</option></select>
+        </label>
+        <label class="filter-chip">
+          <span>Status</span>
+          <select id="statusFilter">
+            <option value="all">All</option>
+            <option value="due">Due, not given</option>
+            <option value="given">Given</option>
+            <option value="flagged">Needs attention</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="table-head" role="row">
+      <span class="col-time">Time</span>
+      <span class="col-resident">Resident</span>
+      <span class="col-med">Medication</span>
+      <span class="col-status">Given</span>
+      <span class="col-flag">Flag</span>
+      <span class="col-risk">Model</span>
+    </div>
+
+    <div id="recordList" class="record-list" aria-live="polite">
+      <!-- rows injected by script.js -->
+    </div>
+
+    <p class="empty-state" id="emptyState" hidden>
+      No records match this search. Try clearing the filter or checking the spelling of a name.
+    </p>
+  </section>
+
+  <aside class="panel panel--detail" id="detailPanel">
+    <div class="detail-placeholder" id="detailPlaceholder">
+      <p class="placeholder-mark">✎</p>
+      <p>Select a record from the board to see the full entry and this resident's running summary.</p>
+    </div>
+
+    <div class="detail-content" id="detailContent" hidden>
+      <button class="detail-close" id="detailClose" aria-label="Close detail view">← Back to board</button>
+
+      <div class="summary-figure" id="summaryFigure">
+        <span class="summary-figure__value" id="adherenceValue">–</span>
+        <span class="summary-figure__label">medication given, last 4 days on record</span>
+      </div>
+
+      <dl class="resident-meta" id="residentMeta"></dl>
+
+      <div class="record-card" id="recordCard"></div>
+
+      <p class="model-legend">
+        <strong>Recorded flag</strong> is what staff entered. <strong>Model prediction</strong> is a
+        risk estimate from a classifier trained on this resident's history — a second opinion, not a
+        replacement for staff judgement.
+      </p>
+
+      <div class="resident-history">
+        <h3>Recent entries for this resident</h3>
+        <ul id="historyList" class="history-list"></ul>
+      </div>
+    </div>
+  </aside>
+
+</main>
+
+<footer class="page-footer">
+  <p>Data loads from <code>data.json</code> · 108 seeded records · Built for SIH 2026 practical assessment</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
