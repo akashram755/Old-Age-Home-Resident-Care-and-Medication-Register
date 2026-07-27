@@ -1,2 +1,0 @@
-# Old-Age-Home-Resident-Care-and-Medication-Register
-Old Age Home Resident Care and Medication Register built using HTML, CSS, JavaScript, JSON, and Python (Scikit-learn). Features include resident management, medication tracking, daily observations, search, filtering, summary dashboard, and AI-based prediction for residents needing supervisor attention.

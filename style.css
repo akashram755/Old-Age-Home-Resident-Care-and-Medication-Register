@@ -28,8 +28,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ---------- Handover board header ---------- */
-
 .board {
   background: var(--teal);
   color: var(--paper-raised);
@@ -98,7 +96,6 @@ body {
 .count-tile--given .count-tile__num { color: #9BC4A2; }
 .count-tile--flag .count-tile__num { color: #E39B87; }
 
-/* ---------- Layout ---------- */
 
 .layout {
   display: grid;
@@ -119,7 +116,6 @@ body {
   min-height: calc(100vh - 160px);
 }
 
-/* ---------- Controls ---------- */
 
 .controls {
   display: flex;
@@ -185,7 +181,6 @@ body {
 
 .filter-chip select:focus-visible { outline: 2px solid var(--teal); }
 
-/* ---------- Table ---------- */
 
 .table-head {
   display: grid;
@@ -297,8 +292,6 @@ body {
   color: var(--ink-soft);
   font-size: 14px;
 }
-
-/* ---------- Detail panel ---------- */
 
 .detail-placeholder {
   height: 100%;
@@ -442,8 +435,6 @@ body {
 .history-list li.is-flagged { border-left-color: var(--clay); }
 .history-list li .hist-date { font-family: var(--font-mono); color: var(--ink-soft); font-size: 11px; }
 
-/* ---------- Footer ---------- */
-
 .page-footer {
   padding: 14px clamp(16px, 4vw, 48px);
   border-top: 1px solid var(--line);
@@ -453,7 +444,6 @@ body {
 }
 .page-footer code { color: var(--teal-soft); }
 
-/* ---------- Responsive ---------- */
 
 @media (max-width: 860px) {
   .layout { grid-template-columns: 1fr; }

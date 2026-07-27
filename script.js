@@ -1,12 +1,9 @@
-/* Resident Care & Medication Register — front-end logic
-   Reads records from data.json. No build step required. */
-
 const state = {
   records: [],
   filtered: [],
   activeId: null,
   latestDate: null,
-  predictions: {},   // record_id -> { predicted_risk: "Yes"|"No"|null, confidence, in_test_set }
+  predictions: {},   
   hasModel: false,
 };
 
@@ -47,8 +44,6 @@ async function init() {
       .sort()
       .at(-1);
 
-    // Model predictions are optional: if train_model.py hasn't been run yet,
-    // the rest of the register still works fine without them.
     try {
       const predRes = await fetch("predictions.json");
       if (predRes.ok) {
